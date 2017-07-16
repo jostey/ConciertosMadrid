@@ -5,7 +5,7 @@ Obtención de información sobre los conciertos de Madrid mediante Web Scraping 
 siendo de forma asíncrona y escalable (Celeris), permitiendo al usuario la obtención de
 la información con una interfaz web (Bottle).
 
-Cliente pide información sobre los conciertos de Madrid (petición: <ip_server>/index).
+Cliente pide información sobre los conciertos de Madrid `<ip_server>/index`.
 Puede elegir entre que le llegue una gráfica o el "Top 5 mejores precios".
 Los datos son sacados por los workers mediante scrapy, son subidos a Dropbox y cuando la
 tarea está finalizada es avisado por correo.
