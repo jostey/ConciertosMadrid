@@ -16,18 +16,18 @@ Ejecutar en orden Servidor, Worker(s) y por último la petición del Cliente.
 
 Servidor
 * Iniciar el servicio RabbitMQ:
-  rabbitmq-service start
+  `rabbitmq-service start`
 
 * Iniciar Flower:
-  flower -A tasks --broker=amqp://<user>:<pass>@localhost:5672//
+  `flower -A tasks --broker=amqp://<user>:<pass>@localhost:5672//`
 
 * Ejecutar el servidor Bottle:
-  server_bottle.py
+  `server_bottle.py`
 
 Worker(s)
 * Ejecutar el(los) worker(s):
-  ./startWorker.sh <num_worker>
+  `./startWorker.sh <num_worker>`
 
 Cliente(s)
-* El cliente introduce en el navegador: <ip_server>:8080/index . Desde ahí hace las operaciones
+* El cliente introduce en el navegador: `<ip_server>:8080/index` . Desde ahí hace las operaciones
 
