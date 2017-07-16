@@ -2,7 +2,7 @@ import dropbox
 import os
 
 def up2drop(fname,fecha,tipo):
-	token = "dpM_IFUHNt4AAAAAAABGcs_nlfWS8dYEBDEZPadD3KrSTLDLn_MMMh__dky3l1Vu"
+	#token = ""
 	dbx = dropbox.client.DropboxClient(token)
 
 	ruta = os.getcwd() + os.sep
