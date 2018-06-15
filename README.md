@@ -1,3 +1,5 @@
+Proyecto desarrollado en colaboración con Marta García Pérez ([@martagar](https://github.com/martagar)).
+
 Conciertos Madrid
 =================
 
@@ -30,4 +32,3 @@ Worker(s)
 
 Cliente(s)
 * El cliente introduce en el navegador: `<ip_server>:8080/index` . Desde ahí hace las operaciones
-
